@@ -1,0 +1,152 @@
+/* For Social Button Share------------------------------------------------------------------- */
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.social {
+  padding-top: 10px;
+  width: 150%;
+  height: 20px;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* box-shadow: 0 0 30px -5px #25348b; */
+}
+
+  .social h3{
+    color: #fff;
+    font-family: 'Gruppo';
+  }
+
+#promotebar {
+    width: 100%;
+    height: 40px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /* box-shadow: 0 0 30px -5px #25348b; */
+}
+
+.close {
+  top: 0;
+  right: 0;
+  padding-top:10px;
+  padding-right: 10px;
+  position: absolute;
+  justify-content: right;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+button {
+    padding: 4px 4px 4px 4px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    background-color: #3b5998;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 35%;
+    font-size: 1em;
+    cursor: pointer;
+    transition: color 0.8s;
+}
+
+.youtube {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.facebook {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.linkedin {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.instagram {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.tiktok {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.twitter {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+.whatsapp {
+    color: #a5a5a5;
+    background-color: transparent;
+    border-color: #a5a5a5;
+}
+
+/* Hover */
+button:hover {
+    animation: hoverAnimation 0.8s forwards;
+}
+
+@keyframes hoverAnimation {
+    from {
+        transform: scale(1) rotate(0);
+    }
+
+    to {
+        transform: scale(1.2) rotate(360deg);
+        background-color: transparent;
+    }
+}
+
+/* Social media colors on hover */
+.youtube:hover {
+    color: #bb0000;
+    border-color: #bb0000;
+}
+.instagram:hover{
+    color: #ec1753;
+    border-color: #ec1753;
+}
+.tiktok:hover{
+    color: black;
+    border-color: black;
+}
+.facebook:hover {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+.linkedin:hover {
+    color: #0976b4;
+}
+.github:hover {
+    color: #313941;
+}
+.twitter:hover {
+    color: #55acee;
+    border-color: #55acee;;
+}
+.whatsapp:hover {
+    color: #1ea914;
+    border-color: #1ea914;;
+}
